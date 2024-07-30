@@ -3,7 +3,7 @@
 QA_NYTIMES is a project that automates the testing of the New York Times website using Selenium WebDriver and TestNG framework. It aims to ensure the quality and functionality of the website through automated test cases.
 
 # Project Structure
-**.idea**: IntelliJ IDEA configuration files.
+**.idea**: IntelliJ IDEA configuration files.                                                                        
 **AmsReports**: Directory containing report files.
 **src**: Source code for test scripts.
 **test-output**: Directory containing test output results.
