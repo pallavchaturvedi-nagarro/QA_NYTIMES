@@ -12,17 +12,17 @@ QA_NYTIMES is a project that automates the testing of the New York Times website
 **testng.xml**: TestNG configuration file.                                                                
 
 # Technologies Used
-Selenium WebDriver: For browser automation.                                                                        
-TestNG: For organizing and running test cases.                                                                        
-Maven: For dependency management and build automation.                                                                        
-Java: Primary programming language.                                                                        
-HTML, CSS, JavaScript: For web interactions.                                                                        
+**Selenium WebDriver:** For browser automation.                                                                        
+**TestNG**: For organizing and running test cases.                                                                        
+**Maven**: For dependency management and build automation.                                                                        
+**Java**: Primary programming language.                                                                        
+**HTML, CSS, JavaScript:** For web interactions.                                                                        
 
 # Getting Started
 # Prerequisites
-Java Development Kit (JDK)
-Maven
-IntelliJ IDEA or any other IDE
+Java Development Kit (JDK)                                                                                                
+Maven                                                                                                
+IntelliJ IDEA or any other IDE                                                                                                
 
 # Installation
 # Clone the repository:
