@@ -33,25 +33,25 @@ cd QA_NYTIMES
 mvn clean install
 
 # Running Tests
-Open the project in IntelliJ IDEA.
-Execute the tests using TestNG:
-Right-click on testng.xml.
-Select "Run 'testng.xml'".
+Open the project in IntelliJ IDEA.                                                                
+Execute the tests using TestNG:                                                                                
+Right-click on testng.xml.                                                                        
+Select "Run 'testng.xml'".                                                                                
 
-# Running Tests using CLI
-Navigate to the project directory and execute below code:
+# Running Tests using CLI                                                                                                        
+Navigate to the project directory and execute below code:                                                                                 
 mvn clean test
 
 
 # Test Cases Overview
-Below mentioned 5 Test cases were covered from testing perspective.
+Below mentioned 5 Test cases were covered from testing perspective.                                                                
 **1. NYLoginPageTest :**
 **verifyNYLoginFunctionality :** This will validate the Login Functionality with Valid credentials and under this test we are doing test for page navigation post Valid login and this will explicitely fail.
 **verifyLoginFunctionalityUsingInvalidCredentials:** This will validate the Login Functionality with InValid credentials and validate the Alert Message.
-
+                                                                                                
 **2. NYHomePageTest :**
 **ValidateDate** : This will validate the Date on the home screen with the system date i.e. if we are displaying the correct data for current date.
-**validatePageNavigationOnClick** : This will validate the navigation and hover functioanlity on Homescreen and clicking on link post hover.
+**validatePageNavigationOnClick** : This will validate the navigation and hover functioanlity on Homescreen and clicking on link post hover.                                                                                                
 
 **3. SearchTest :**
 **validateSearchFunctionality** : This will validate the Search functionality on Homepage.
