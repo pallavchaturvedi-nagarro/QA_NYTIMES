@@ -46,7 +46,7 @@ mvn clean test
 \src\main\resources\config\AmsConfig.properties
 
 Change the browser type to below in the above mentioned config file for running on different browser:                  
-Chrome                                                                                  
+Chrome(Currently set)                                                                                  
 Edge                                                                                                      
 Firefox                                                                                                            
 
