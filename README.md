@@ -42,6 +42,14 @@ Select "Run 'testng.xml'".
 Navigate to the project directory and execute below code:                                                                                 
 mvn clean test
 
+# Running Tests on different browser
+\src\main\resources\config\AmsConfig.properties
+
+Change the browser type to below in the above mentioned config file for running on different browser:                  
+Chrome                                                                                  
+Edge                                                                                                      
+Firefox                                                                                                            
+
 
 # Test Cases Overview
 Below mentioned **5 Test cases** were covered under **3 Test classes**:
