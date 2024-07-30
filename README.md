@@ -44,7 +44,8 @@ mvn clean test
 
 
 # Test Cases Overview
-Below mentioned 5 Test cases were covered from testing perspective.                                                                
+Below mentioned **5 Test cases** were covered under **3 Test classes**:
+
 **1. NYLoginPageTest :**                                                                                
 **verifyNYLoginFunctionality :** This will validate the Login Functionality with Valid credentials and under this test we are doing test for page navigation post Valid login and this will explicitely fail.                                                        
 **verifyLoginFunctionalityUsingInvalidCredentials:** This will validate the Login Functionality with InValid credentials and validate the Alert Message.
