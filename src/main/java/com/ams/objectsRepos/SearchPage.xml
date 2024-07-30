@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PageObjects>
+    <Element>
+        <NameOfElement>SearchBtn</NameOfElement>
+        <ElementProperty>
+            <Type>xpath</Type>
+            <Value>//button[@class='css-tkwi90 e1iflr850']//*[name()='svg']</Value>
+        </ElementProperty>
+    </Element>
+    <Element>
+        <NameOfElement>SearchBox</NameOfElement>
+        <ElementProperty>
+            <Type>xpath</Type>
+            <Value>//input[@placeholder='SEARCH']</Value>
+        </ElementProperty>
+    </Element>
+    <Element>
+        <NameOfElement>SearchSubmitBtn</NameOfElement>
+        <ElementProperty>
+            <Type>xpath</Type>
+            <Value>//button[@type='submit']</Value>
+        </ElementProperty>
+    </Element>
+
+    <Element>
+        <NameOfElement>SearchResult</NameOfElement>
+        <ElementProperty>
+            <Type>xpath</Type>
+            <Value>//p[@class='css-nayoou']</Value>
+        </ElementProperty>
+    </Element>
+</PageObjects>

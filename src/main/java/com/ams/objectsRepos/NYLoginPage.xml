@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PageObjects>
+    <Element>
+        <NameOfElement>LoginBtn</NameOfElement>
+        <ElementProperty>
+            <Type>xpath</Type>
+            <Value>//span[@class='css-ni9it0 e1j3jvdr0']</Value>
+        </ElementProperty>
+    </Element>
+    <Element>
+        <NameOfElement>EmailText</NameOfElement>
+        <ElementProperty>
+            <Type>xpath</Type>
+            <Value>//input[@id='email']</Value>
+        </ElementProperty>
+    </Element>
+    <Element>
+        <NameOfElement>ContinueBtn</NameOfElement>
+        <ElementProperty>
+            <Type>xpath</Type>
+            <Value>//button[@type='submit']</Value>
+        </ElementProperty>
+    </Element>
+
+    <Element>
+        <NameOfElement>PasswordTxt</NameOfElement>
+        <ElementProperty>
+            <Type>xpath</Type>
+            <Value>//input[@id='password']</Value>
+        </ElementProperty>
+    </Element>
+
+    <Element>
+        <NameOfElement>LoginBtn1</NameOfElement>
+        <ElementProperty>
+            <Type>xpath</Type>
+            <Value>//button[@data-testid='login-button']</Value>
+        </ElementProperty>
+    </Element>
+
+    <Element>
+        <NameOfElement>ContinueWithoutSubscribing</NameOfElement>
+        <ElementProperty>
+            <Type>xpath</Type>
+            <Value>//a[@class='css-1dhib8']</Value>
+        </ElementProperty>
+    </Element>
+    <Element>
+        <NameOfElement>Title</NameOfElement>
+        <ElementProperty>
+            <Type>xpath</Type>
+            <Value>//a[@class='css-1qcrlqu eoab3xr0']//*[name()='svg']</Value>
+        </ElementProperty>
+    </Element>
+    <Element>
+        <NameOfElement>invalidLoginAlert</NameOfElement>
+        <ElementProperty>
+            <Type>xpath</Type>
+            <Value>//span[@role='alert']</Value>
+        </ElementProperty>
+    </Element>
+</PageObjects>

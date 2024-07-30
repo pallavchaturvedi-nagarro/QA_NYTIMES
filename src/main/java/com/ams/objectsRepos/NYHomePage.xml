@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PageObjects>
+    <Element>
+        <NameOfElement>Title</NameOfElement>
+        <ElementProperty>
+            <Type>xpath</Type>
+            <Value>//a[@class='css-1qcrlqu eoab3xr0']//*[name()='svg']</Value>
+        </ElementProperty>
+    </Element>
+
+    <Element>
+        <NameOfElement>dateField</NameOfElement>
+        <ElementProperty>
+            <Type>xpath</Type>
+            <Value>//span[@data-testid='todays-date']</Value>
+        </ElementProperty>
+    </Element>
+    <Element>
+        <NameOfElement>USDropdown</NameOfElement>
+        <ElementProperty>
+            <Type>xpath</Type>
+            <Value>//ul[@class='css-17j7fe1']//a[@class='css-u90q6n'][normalize-space()='U.S.']</Value>
+        </ElementProperty>
+    </Element>
+    <Element>
+    <NameOfElement>NewYorkSection</NameOfElement>
+    <ElementProperty>
+        <Type>xpath</Type>
+        <Value>//div[@class='css-qv5y3b']//a[@class='css-kz1pwz'][normalize-space()='New York']</Value>
+    </ElementProperty>
+</Element>
+    <Element>
+        <NameOfElement>NewYorkTitle</NameOfElement>
+        <ElementProperty>
+            <Type>xpath</Type>
+            <Value>//h1[@class='css-14dhlt9 e16wpn5v0']</Value>
+        </ElementProperty>
+    </Element>
+
+</PageObjects>

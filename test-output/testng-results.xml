@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="4" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-30T16:40:23 IST" name="AMS_SMOKESUITE" finished-at="2024-07-30T16:43:28 IST" duration-ms="184929">
+    <groups>
+      <group name="smoke">
+        <method signature="NYHomePageTest.validatePageNavigationOnClick(java.lang.String)[pri:0, instance:com.ams.tests.NYHomePageTest@4e7912d8]" name="validatePageNavigationOnClick" class="com.ams.tests.NYHomePageTest"/>
+        <method signature="NYLoginPageTest.verifyLoginFunctionalityUsingInvalidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ams.tests.NYLoginPageTest@1356d4d4]" name="verifyLoginFunctionalityUsingInvalidCredentials" class="com.ams.tests.NYLoginPageTest"/>
+        <method signature="NYLoginPageTest.verifyNYLoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ams.tests.NYLoginPageTest@1356d4d4]" name="verifyNYLoginFunctionality" class="com.ams.tests.NYLoginPageTest"/>
+        <method signature="SearchTest.validateSearchFunctionality(java.lang.String,java.lang.String)[pri:0, instance:com.ams.tests.SearchTest@2bfc268b]" name="validateSearchFunctionality" class="com.ams.tests.SearchTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="NYHomePageTest.validatePageNavigationOnClick(java.lang.String)[pri:0, instance:com.ams.tests.NYHomePageTest@4e7912d8]" name="validatePageNavigationOnClick" class="com.ams.tests.NYHomePageTest"/>
+        <method signature="NYLoginPageTest.verifyLoginFunctionalityUsingInvalidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ams.tests.NYLoginPageTest@1356d4d4]" name="verifyLoginFunctionalityUsingInvalidCredentials" class="com.ams.tests.NYLoginPageTest"/>
+        <method signature="NYLoginPageTest.verifyNYLoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ams.tests.NYLoginPageTest@1356d4d4]" name="verifyNYLoginFunctionality" class="com.ams.tests.NYLoginPageTest"/>
+        <method signature="SearchTest.validateSearchFunctionality(java.lang.String,java.lang.String)[pri:0, instance:com.ams.tests.SearchTest@2bfc268b]" name="validateSearchFunctionality" class="com.ams.tests.SearchTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2024-07-30T16:40:23 IST" name="AMS SMOKE TEST" finished-at="2024-07-30T16:43:28 IST" duration-ms="184929">
+      <class name="com.ams.tests.SearchTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ams.tests.SearchTest@2bfc268b]" started-at="2024-07-30T16:43:00 IST" name="setup" finished-at="2024-07-30T16:43:09 IST" duration-ms="8683" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateSearchFunctionality(java.lang.String,java.lang.String)[pri:0, instance:com.ams.tests.SearchTest@2bfc268b]" started-at="2024-07-30T16:43:09 IST" name="validateSearchFunctionality" data-provider="SearchData" finished-at="2024-07-30T16:43:27 IST" duration-ms="18260" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Showing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchFunctionality -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ams.tests.SearchTest@2bfc268b]" started-at="2024-07-30T16:43:27 IST" name="teardown" finished-at="2024-07-30T16:43:28 IST" duration-ms="939" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ams.tests.SearchTest -->
+      <class name="com.ams.tests.NYLoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ams.tests.NYLoginPageTest@1356d4d4]" started-at="2024-07-30T16:40:24 IST" name="setup" finished-at="2024-07-30T16:40:34 IST" duration-ms="10129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLoginFunctionalityUsingInvalidCredentials(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ams.tests.NYLoginPageTest@1356d4d4]" started-at="2024-07-30T16:40:34 IST" name="verifyLoginFunctionalityUsingInvalidCredentials" data-provider="NYLoginPageData" finished-at="2024-07-30T16:41:04 IST" duration-ms="29915" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[monika.bajpai.2oct@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@12345]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[The email address or password you entered is incorrect. Please try again.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFunctionalityUsingInvalidCredentials -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ams.tests.NYLoginPageTest@1356d4d4]" started-at="2024-07-30T16:41:04 IST" name="teardown" finished-at="2024-07-30T16:41:04 IST" duration-ms="686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ams.tests.NYLoginPageTest@1356d4d4]" started-at="2024-07-30T16:41:04 IST" name="setup" finished-at="2024-07-30T16:41:13 IST" duration-ms="8914" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyNYLoginFunctionality(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.ams.tests.NYLoginPageTest@1356d4d4]" started-at="2024-07-30T16:41:13 IST" name="verifyNYLoginFunctionality" data-provider="NYLoginPageData" finished-at="2024-07-30T16:42:18 IST" duration-ms="65262" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[monika.bajpai.2oct@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mbvij24594]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[New York Times homepage]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Login Succedded but navigation failed
+expected [New York Times homepage] but found []]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Login Succedded but navigation failed
+expected [New York Times homepage] but found []
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:46)
+at com.ams.tests.NYLoginPageTest.verifyNYLoginFunctionality(NYLoginPageTest.java:38)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+at org.testng.TestNG.runSuites(TestNG.java:1134)
+at org.testng.TestNG.run(TestNG.java:1101)
+at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65)
+at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNYLoginFunctionality -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ams.tests.NYLoginPageTest@1356d4d4]" started-at="2024-07-30T16:42:19 IST" name="teardown" finished-at="2024-07-30T16:42:19 IST" duration-ms="710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ams.tests.NYLoginPageTest -->
+      <class name="com.ams.tests.NYHomePageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ams.tests.NYHomePageTest@4e7912d8]" started-at="2024-07-30T16:42:19 IST" name="setup" finished-at="2024-07-30T16:42:21 IST" duration-ms="1901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateDate()[pri:0, instance:com.ams.tests.NYHomePageTest@4e7912d8]" started-at="2024-07-30T16:42:21 IST" name="validateDate" finished-at="2024-07-30T16:42:33 IST" duration-ms="11541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDate -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ams.tests.NYHomePageTest@4e7912d8]" started-at="2024-07-30T16:42:33 IST" name="teardown" finished-at="2024-07-30T16:42:34 IST" duration-ms="726" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.ams.tests.NYHomePageTest@4e7912d8]" started-at="2024-07-30T16:42:34 IST" name="setup" finished-at="2024-07-30T16:42:36 IST" duration-ms="2020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validatePageNavigationOnClick(java.lang.String)[pri:0, instance:com.ams.tests.NYHomePageTest@4e7912d8]" started-at="2024-07-30T16:42:36 IST" name="validatePageNavigationOnClick" data-provider="NYHomePageData" finished-at="2024-07-30T16:42:59 IST" duration-ms="23413" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[New York]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePageNavigationOnClick -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ams.tests.NYHomePageTest@4e7912d8]" started-at="2024-07-30T16:42:59 IST" name="teardown" finished-at="2024-07-30T16:43:00 IST" duration-ms="1515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.ams.tests.NYHomePageTest -->
+    </test> <!-- AMS SMOKE TEST -->
+  </suite> <!-- AMS_SMOKESUITE -->
+</testng-results>

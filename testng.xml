@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="NY_SMOKESUITE" >
+    <listeners>
+        <listener class-name="com.ams.listeners.AmsListeners"/>
+    </listeners>
+    <test name="NY SMOKE TEST">
+        <classes>
+            <class name="com.ams.tests.NYLoginPageTest"/>
+            <class name="com.ams.tests.NYHomePageTest"/>
+            <class name="com.ams.tests.SearchTest"/>
+        </classes>
+    </test>
+</suite>
