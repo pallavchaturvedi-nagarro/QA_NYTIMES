@@ -4,19 +4,19 @@ QA_NYTIMES is a project that automates the testing of the New York Times website
 
 # Project Structure
 **.idea**: IntelliJ IDEA configuration files.                                                                        
-**AmsReports**: Directory containing report files.
-**src**: Source code for test scripts.
-**test-output**: Directory containing test output results.
-**.gitignor**e: Git ignore file.
-**pom.xml**: Maven project file for managing dependencies.
-**testng.xml**: TestNG configuration file.
+**AmsReports**: Directory containing report files.                                                
+**src**: Source code for test scripts.                                                        
+**test-output**: Directory containing test output results.                                                        
+**.gitignor**e: Git ignore file.                                                        
+**pom.xml**: Maven project file for managing dependencies.                                                        
+**testng.xml**: TestNG configuration file.                                                                
 
 # Technologies Used
-Selenium WebDriver: For browser automation.
-TestNG: For organizing and running test cases.
-Maven: For dependency management and build automation.
-Java: Primary programming language.
-HTML, CSS, JavaScript: For web interactions.
+Selenium WebDriver: For browser automation.                                                                        
+TestNG: For organizing and running test cases.                                                                        
+Maven: For dependency management and build automation.                                                                        
+Java: Primary programming language.                                                                        
+HTML, CSS, JavaScript: For web interactions.                                                                        
 
 # Getting Started
 # Prerequisites
