@@ -2,21 +2,31 @@
 # Overview
 QA_NYTIMES is a project that automates the testing of the New York Times website using Selenium WebDriver and TestNG framework. It aims to ensure the quality and functionality of the website through automated test cases.
 
+This framework leverages Selenium WebDriver for browser automation and TestNG for test case management and execution. The project is structured to support a comprehensive testing strategy, with clearly defined source code, reports, and test output directories. Maven handles dependency management, making it easy to manage and update project libraries. The framework supports cross-browser testing, data-driven testing, and generates detailed reports for each test run. Configuration files like pom.xml and testng.xml ensure seamless setup and execution of tests.
+
+# Technologies Used
+**Framework Type:** Data Driven Framework
+**Design Pattern:** Page Object Model with Factory Design Pattern , External Object Repository and Inbuilt Custom annotations.
+**Selenium WebDriver:** For browser automation.                                                                        
+**TestNG**: For organizing and running test cases.                                                                        
+**Maven**: For dependency management , Project life cycle and  build automation.                                                
+**Java**: Primary programming language.                                                                        
+**HTML, CSS, JavaScript,XML:** For web interactions.     
+
 # Project Structure
 **.idea**: IntelliJ IDEA configuration files.                                                                        
 **AmsReports**: Directory containing report files.                                                
-**src**: Source code for test scripts.                                                        
+**src**: Source code for test scripts.   
+  **src/main**
+    **src/main/java:** Consists of all the packages of Factory and Framework Configs, Object repository, data providers, drivers,annotations, enum, utils
+    **src/main/resources:** Config Properties file.
+  **src/test**
+    **src/main/java:** Test Base class, Test classes
+    **src/main/resources:** Test Data , Data Config files.
 **test-output**: Directory containing test output results.                                                        
 **.gitignor**e: Git ignore file.                                                        
 **pom.xml**: Maven project file for managing dependencies.                                                        
-**testng.xml**: TestNG configuration file.                                                                
-
-# Technologies Used
-**Selenium WebDriver:** For browser automation.                                                                        
-**TestNG**: For organizing and running test cases.                                                                        
-**Maven**: For dependency management and build automation.                                                                        
-**Java**: Primary programming language.                                                                        
-**HTML, CSS, JavaScript:** For web interactions.                                                                        
+**testng.xml**: TestNG configuration file.                                                                                                                                           
 
 # Getting Started
 # Prerequisites
