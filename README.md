@@ -5,8 +5,8 @@ QA_NYTIMES is a project that automates the testing of the New York Times website
 This framework leverages Selenium WebDriver for browser automation and TestNG for test case management and execution. The project is structured to support a comprehensive testing strategy, with clearly defined source code, reports, and test output directories. Maven handles dependency management, making it easy to manage and update project libraries. The framework supports cross-browser testing, data-driven testing, and generates detailed reports for each test run. Configuration files like pom.xml and testng.xml ensure seamless setup and execution of tests.
 
 # Technologies Used
-**Framework Type:** Data Driven Framework
-**Design Pattern:** Page Object Model with Factory Design Pattern , External Object Repository and Inbuilt Custom annotations.
+**Framework Type:** Data Driven Framework                                                                       
+**Design Pattern:** Page Object Model with Factory Design Pattern , External Object Repository and Inbuilt Custom annotations.            
 **Selenium WebDriver:** For browser automation.                                                                        
 **TestNG**: For organizing and running test cases.                                                                        
 **Maven**: For dependency management , Project life cycle and  build automation.                                                
