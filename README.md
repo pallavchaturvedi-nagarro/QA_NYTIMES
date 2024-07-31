@@ -16,11 +16,9 @@ This framework leverages Selenium WebDriver for browser automation and TestNG fo
 # Project Structure
 **.idea**: IntelliJ IDEA configuration files.                                                                        
 **AmsReports**: Directory containing report files.                                                
-**src**: Source code for test scripts, this package consists of below given structure.                                                
-             **src/main**                                                                                                                
+**src**: Source code for test scripts, this package consists of below given structure.                                                                                                                                                        
     **src/main/java:** Consists of all the packages of Factory and Framework Configs, Object repository, data providers, drivers,annotations, enum, utils                                                                                        
-    **src/main/resources:** Config Properties file.                                                                   
-             **src/test**                                            
+    **src/main/resources:** Config Properties file.                                                                                                             
     **src/main/java:** Test Base class, Test classes                                                              
     **src/main/resources:** Test Data , Data Config files.                                                              
 **test-output**: Directory containing test output results.                                                        
